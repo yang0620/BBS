@@ -1,0 +1,905 @@
+[2018-11-29 08:37:48,482][Thread-41:139824832141056][task_id:django.request][base.py:152][WARNING][Not Found: /favicon.ico]
+[2018-11-30 01:03:43,231][Thread-5:140155310941952][task_id:django.request][base.py:152][WARNING][Not Found: /favicon.ico]
+[2018-11-30 01:12:21,054][Thread-3:140546928256768][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 69, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:39:02,753][Thread-12:140170991462144][task_id:django.security.csrf][csrf.py:160][WARNING][Forbidden (CSRF token missing or incorrect.): /blog/up_down/]
+[2018-11-30 03:39:02,758][Thread-13:140171002566400][task_id:django.security.csrf][csrf.py:160][WARNING][Forbidden (CSRF token missing or incorrect.): /blog/up_down/]
+[2018-11-30 03:39:07,215][Thread-14:140170991462144][task_id:django.security.csrf][csrf.py:160][WARNING][Forbidden (CSRF token missing or incorrect.): /blog/up_down/]
+[2018-11-30 03:39:07,224][Thread-15:140171002566400][task_id:django.security.csrf][csrf.py:160][WARNING][Forbidden (CSRF token missing or incorrect.): /blog/up_down/]
+[2018-11-30 03:39:07,884][Thread-16:140170991462144][task_id:django.security.csrf][csrf.py:160][WARNING][Forbidden (CSRF token missing or incorrect.): /blog/up_down/]
+[2018-11-30 03:39:07,902][Thread-17:140170991462144][task_id:django.security.csrf][csrf.py:160][WARNING][Forbidden (CSRF token missing or incorrect.): /blog/up_down/]
+[2018-11-30 03:40:25,664][Thread-39:140170991462144][task_id:django.security.csrf][csrf.py:160][WARNING][Forbidden (CSRF token missing or incorrect.): /blog/up_down/]
+[2018-11-30 03:40:25,669][Thread-38:140171002566400][task_id:django.security.csrf][csrf.py:160][WARNING][Forbidden (CSRF token missing or incorrect.): /blog/up_down/]
+[2018-11-30 03:41:21,113][Thread-50:140170991462144][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:41:21,160][Thread-51:140171002566400][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:41:43,514][Thread-52:140171002566400][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:41:43,530][Thread-53:140170991462144][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:41:45,732][Thread-54:140171002566400][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:41:45,748][Thread-55:140170991462144][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:43:37,564][Thread-12:140202756531968][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:43:37,569][Thread-13:140202764924672][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:43:40,491][Thread-14:140202756531968][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:43:40,529][Thread-15:140202764924672][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:43:40,726][Thread-16:140202764924672][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 03:43:40,741][Thread-17:140202756531968][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 06:10:35,891][Thread-12:139999020242688][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/up_down/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 70, in up_down
+    is_up = json.load(request.POST.get("is_up"))
+  File "/usr/lib/python3.5/json/__init__.py", line 265, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+[2018-11-30 08:42:41,048][Thread-14:139855975782144][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 96, in comment
+    models.Comment.objects.create(article_id=article_id, content=content, user=user_pk)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 392, in create
+    obj = self.model(**kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 555, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/fields/related_descriptors.py", line 216, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "1": "Comment.user" must be a "UserInfo" instance.
+[2018-11-30 08:43:32,616][Thread-14:140202429380352][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 96, in comment
+    models.Comment.objects.create(article_id=article_id, content=content, user=user_pk)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 392, in create
+    obj = self.model(**kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 555, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/fields/related_descriptors.py", line 216, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "1": "Comment.user" must be a "UserInfo" instance.
+[2018-11-30 08:44:06,785][Thread-14:140086839170816][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'content' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 96, in comment
+    models.Comment.objects.create(article_id=article_id, content=content, user_id=user_pk)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'content' cannot be null")
+[2018-11-30 08:46:05,649][Thread-27:140086810232576][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'content' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 96, in comment
+    models.Comment.objects.create(article_id=article_id, content=content, user_id=user_pk)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'content' cannot be null")
+[2018-11-30 08:47:40,428][Thread-40:140086810232576][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'content' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 96, in comment
+    models.Comment.objects.create(article_id=article_id, content=content, user_id=user_pk)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'content' cannot be null")
+[2018-11-30 08:48:28,814][Thread-14:139657425057536][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'content' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 97, in comment
+    models.Comment.objects.create(article_id=article_id, content=content, user_id=user_pk)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'content' cannot be null")
+[2018-11-30 08:48:29,006][Thread-15:139657425057536][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'content' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 97, in comment
+    models.Comment.objects.create(article_id=article_id, content=content, user_id=user_pk)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'content' cannot be null")
+[2018-11-30 08:49:41,835][Thread-14:140642940634880][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'content' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 97, in comment
+    models.Comment.objects.create(article_id=article_id, content=content, user_id=user_pk)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'content' cannot be null")
+[2018-11-30 10:09:38,343][Thread-15:140079836636928][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 102, in comment
+    response["create_time"] = comment_obj.create_time
+TypeError: list indices must be integers or slices, not str
+[2018-11-30 10:09:39,633][Thread-16:140079836636928][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 102, in comment
+    response["create_time"] = comment_obj.create_time
+TypeError: list indices must be integers or slices, not str
+[2018-11-30 10:09:45,224][Thread-18:140079836636928][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'article_id' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 100, in comment
+    comment_obj = models.Comment.objects.create(article_id=article_id, content=content, user_id=user_pk)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'article_id' cannot be null")
+[2018-11-30 10:10:48,779][Thread-32:140079861815040][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 102, in comment
+    response["create_time"] = comment_obj.create_time
+TypeError: list indices must be integers or slices, not str
+[2018-11-30 10:11:07,358][Thread-33:140079861815040][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 102, in comment
+    response["create_time"] = comment_obj.create_time
+TypeError: list indices must be integers or slices, not str
+[2018-11-30 10:11:14,354][Thread-46:140079836636928][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 102, in comment
+    response["create_time"] = comment_obj.create_time
+TypeError: list indices must be integers or slices, not str
+[2018-11-30 10:12:10,862][Thread-14:140345304151808][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 102, in comment
+    response["create_time"] = comment_obj.create_time
+TypeError: list indices must be integers or slices, not str
+[2018-11-30 10:17:07,936][Thread-14:140304032200448][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 101, in comment
+    response["create_time"] = comment_obj.create_time
+TypeError: list indices must be integers or slices, not str
+[2018-11-30 10:18:31,659][Thread-13:139662891063040][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /blog/comment/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 101, in comment
+    response["create_time"] = comment_obj.create_time
+TypeError: list indices must be integers or slices, not str
+[2018-12-04 01:07:51,449][Thread-5:139978526934784][task_id:django.request][base.py:152][WARNING][Not Found: /favicon.ico]
+[2018-12-04 01:13:14,170][Thread-13:140100608448256][task_id:django.request][base.py:152][WARNING][Not Found: /favicon.ico]
+[2018-12-04 03:26:08,438][Thread-4:140604783998720][task_id:django.request][exception.py:135][ERROR][Internal Server Error: /upload/]
+Traceback (most recent call last):
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.virtualenvs/Django_py3/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/桌面/bbs/blog/views.py", line 129, in upload
+    with open(path, "wb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/tarena/桌面/bbs/media/add_article_img/hmbb.jpg'
